@@ -1,0 +1,344 @@
+/*Hecho con un macbook pro 13 pulgadas*/
+
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	font-family: arial;
+	background-color: rgb(31, 82, 111);
+
+}
+
+nav{
+	width:100%;
+	margin:auto;
+	max-width:1440px;
+	height:40px;
+	background-color: #C12127;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color:rgba(255,255,255,0.8);
+
+}
+header {
+	width:100%;
+	margin:auto;
+	max-width: 1440px;
+	min-height: 480px;
+	background-image: url("images/city-scape.svg");
+
+}
+
+
+
+.top-left{
+	min-width:21%;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left:15px;
+
+	align-items: center;
+
+}
+
+.heart {
+	text-decoration: none;
+	font-size: 1.4em;
+	color:rgba(255,255,255,0.8);
+
+}
+
+
+
+.top-links{
+	width:40%;
+	list-style-type: none;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 28px;
+	align-items: center;
+
+}
+
+.top-links li a{
+	text-decoration: none;
+	color:rgba(255,255,255,0.8);
+
+}
+.upper-header{
+	width:100%;
+	max-width:1440px;
+	height:60px;
+	display: flex;
+	flex-direction: row;
+}
+.upper-header .logo{
+	width: 8.8%;
+	padding:13px 7px 0px 13px;
+
+}
+.upper-header .logo img{
+
+	width:100%;
+}
+form{
+	display: flex;
+	flex-direction: row;
+	width: 74%;
+	margin-left: 10px;
+	margin-right: 18px;
+}
+
+.upper-header input{
+	margin-top: 13px;
+	width: 98%;
+	height: 40px;
+	font-size: 1.2em;
+	margin-left: 0px;
+	padding-left: 10px;
+	background-color: rgb(31, 82, 111);
+	color:rgb(130,120,129);
+	border-style: solid;
+	border-color: rgb(70,112,139);
+}
+.upper-header button{
+	margin-top: 13px;
+	height: 44px;
+	width: 44px;
+	border-style: solid;
+	background-color: rgb(31,82,111);
+	border-color: rgb(70,112,139);
+
+}
+
+.search{
+width:30%;
+}
+.header-links {
+	width: 150px;
+	display:flex;
+	flex-direction: row;
+	list-style-type: none;
+	color:white;
+	align-items: center;
+	margin-top: 10px;
+}
+.li-links{
+width:130px;
+padding-right: 5px;
+}
+
+.li-links a{
+	text-decoration: none;
+	color:white;
+
+}
+.li-image{
+	width:30px;
+}
+.bear2{
+	padding-top: 3px;
+	width: 100%;
+
+}
+
+
+.header-content{
+
+	width:50%;
+	min-height: 235px;
+	margin: 7% 0 0 13%;
+	display:flex;
+	flex-direction: column;
+	color:white;
+	justify-content: space-between;
+}
+p{
+	font-size: 1.2em;
+	color:white;
+
+}
+
+h2{
+	font-size: 3em;
+	color:white;
+}
+
+
+.header-content button{
+	margin-top: 10px;
+	width:200px;
+	height: 40px;
+	background-color: rgb(240,146,51);
+	border-style: none;
+	color:white;
+	border-radius: 30px;
+	font-size: 1.2em;
+
+}
+
+.first-section{
+	width: 100%;
+	max-width: 1440px;
+	margin:auto;
+	height:527px;
+	background-color: rgb(39,53,71);
+	display: flex;
+	flex-direction: row;
+
+}
+
+.first-section-left{
+	width:44%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.first-section-right{
+	width:56%;
+}
+
+.first-content{
+	width:90%;
+	height:400px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	color:white;
+}
+.first-content ul{
+	margin: 18px 0 0 30px;
+}
+.first-content li{
+	padding-top: 18px;
+	font-size: 1.2em;
+
+}
+.first-content button{
+	margin-top: 25px;
+	width:200px;
+	height: 40px;
+	background-color: rgb(203,56,55);
+	border-style: none;
+	color:white;
+	border-radius: 30px;
+	font-size: 1.2em;
+
+}
+.first-content p{
+	font-size: 1em;
+	margin-top: 20px;
+}
+.first-content a{
+	text-decoration: none;
+	color:white;
+}
+
+.foto-content{
+	margin: 115px 37px;
+	width:75%;
+	height: 350px;
+}
+
+.second-section{
+	width:100%;
+	margin:auto;
+	max-width: 1440px;
+	background-image: url("images/forklift.svg");
+	min-height: 580px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.second-content{
+
+	height:250px;
+	width:35%;
+	margin:85px 0 0 100px;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.second-content button{
+	margin-top: 25px;
+	width:150px;
+	height: 40px;
+	background-color: rgb(49,68,88);
+	border-style: none;
+	color:white;
+	border-radius: 30px;
+	font-size: 1.2em;
+}
+
+footer{
+	display:flex;
+	flex-direction: column;
+	width:100%;
+	max-width: 1440px;
+	margin:auto;
+	height:480px;
+	text-align: center;
+	background-color:white;
+
+}
+
+footer h3{
+	margin-top: 70px;
+	font-size:1.7em;
+	color: rgb(83,88,98);
+
+}
+
+.footer-description{
+	color: rgb(135, 145, 156);
+	margin-top: 20px;
+	font-size: 1.1em;
+}
+.footer-container{
+	margin-top: 40px;
+	width:83%;
+	min-height:300px;
+	align-self: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-container .item{
+	height: 200px;
+	flex:1;
+	display:flex;
+	flex-direction: column;
+	background-color: white;
+	margin:0 20px 0 20px;
+	align-items: center;
+
+}
+.footer-container .item p{
+	color:black;
+	font-size: 1.1em;
+	margin-top: 15px;
+}
+.footer-container .item p a{
+	text-decoration: none;
+	color:rgb(208, 74, 73);
+}
+
+
+.footer-container .item h4 a{
+	text-decoration: none;
+	color: rgb(33,33,38);
+
+}
+.footer-container .item img{
+	width: 140px;
+}
+
+
+
